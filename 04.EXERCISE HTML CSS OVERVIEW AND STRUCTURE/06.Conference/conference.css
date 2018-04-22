@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Lato;
+    src: url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/*HEADER STYLES*/
+
+header {
+    background-color: #293F50;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    text-align: left;
+    height: 1em;
+    line-height: 1em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.3em;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+
+nav li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+nav li a {
+    color: #4E8580;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+
+header time {
+    display: block;
+    text-align: right;
+    color: #4E8580;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+
+header h1 {
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+header h2 {
+    color: #4E8580;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+}
+
+header p {
+    color: white;
+    font-weight: 300;
+    font-size: small;
+    line-height: 1.4em;
+}
+
+header .register {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-small;
+    padding: 2em;
+    border: solid 1px white;
+    border-radius:0.3em;
+    margin: 1em 0;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+header .register:hover {
+    color: #4E8580;
+    background-color: white;
+}
+
+/*MAIN STYLES*/
+
+main {
+    border: solid 0.2em lightgray;
+    border-radius: 0.5em;
+    margin: 0 1em;
+    text-align: center;
+}
+
+main section {
+    display: inline-block;
+    width: 220px;
+    text-align: left;
+    color: lightgray;
+    margin: 1em;
+}
+
+main section h3 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+main section img {
+    width: 200px;
+    height: auto;
+    border-radius: 0.2em;
+}
+
+main section h4 {
+    margin: 1em 0;
+    font-weight: 400;
+}
+
+main section p {
+    text-align: justify;
+    font-size: small;
+    color: #707070;
+}
+
+/*FOOTER STYLES*/
+
+footer {
+    background-color: #293F50;
+    padding: 3em 3em 2em 3em;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    float: left;
+}
+
+footer nav {
+    display: inline-block;
+    float: right;
+}

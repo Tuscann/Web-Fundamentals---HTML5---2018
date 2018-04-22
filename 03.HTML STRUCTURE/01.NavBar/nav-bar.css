@@ -1,0 +1,22 @@
+body{
+    background-color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+}
+#topmenu ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+#topmenu li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+#topmenu a {
+    text-decoration: none;
+    color: #fff;
+}
