@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav, header {
+    background: radial-gradient(ellipse at center,
+    rgba(192, 169, 145, 1) 0%,
+    rgba(192, 169, 145, 1) 59%,
+    rgba(168, 143, 121, 1) 100%);
+    color: white;
+
+}
+
+/*ul{*/
+/*display: inline-block;*/
+/*}*/
+li {
+    display: inline-block;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-primary a:last-of-type {
+    border: solid white 2px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.nav-item {
+    text-transform: capitalize;
+
+}
+
+.header-title {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.header-subtitle {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-potato {
+    height: 120px;
+    width: 180px;
+    margin: 0 auto;
+}
